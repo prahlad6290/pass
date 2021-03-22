@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+width: 100%;
+height: 100vh;
+ background-image: url(a2.jpg);
+background-attachment: fixed;
+background-size: cover;
+ filter: blur(3px); 
+}
+section img{
+    background-attachment: fixed;
+    background-size: cover;  
+     width: 0%;
+    height: 100vh;
+} 
+ div{
+    width: 43.2%;
+    height: 500px;
+    position: relative;
+    top: -679px;
+    left: 635px;
+} 
+
+.mm{
+    width: 400px;
+    height: 800px;
+    background: transparent;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+}
+.a2{
+    position: absolute;
+    width: 100%;
+    height: 342px;
+    border-radius: 24px;
+    top: 229px;
+    left: -150px;
+
+}
+div .a1{
+    position: absolute;
+    width: 0%;
+    height: 342px;
+    border-radius: 24px;
+    top: 229px;
+    left: -150px;
+
+}
+input[type="range"]{
+width: 40%;
+position: relative;
+top: -570px;
+left: 510px;
+z-index: 2;
+}
+p{ 
+position: relative;
+left: -50%;
+height: 5px;
+width: 100%;
+background-color: rgb(15, 15, 15);
+transform: rotate(90deg);
+z-index: 2;
+} 
